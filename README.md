@@ -11,13 +11,13 @@ Unidad 2 – Inferencia
 
 👨‍🎓 Estudiante: Mateo Yanangómez
 
-📚 Asignatura: Teroía de la Distribución y Probabilidad
+📚 Asignatura: Teoría de la Distribución y Probabilidad
 
-👨‍🏫 Docente: Ing. Cristian Narvaes
+👨‍🏫 Docente: Ing. Cristian Narváez
 
 🎓 Carrera: Ingería en Ciencias de la Computación 
 
-🏫 Universidad: Universidad Técnica Particular de Loja
+🏫 Universidad: Universidad Nacional de Loja
 
 📅 Periodo Académico: 2025–2026
 
