@@ -34,21 +34,37 @@ El propósito de este portafolio es organizar y documentar el proceso de aprendi
 📦 Portafolio-PID-2025
 
 │
+
 ├── 📁 APE06
+
 ├── 📁 APE07
+
 ├── 📁 APE08
+
 ├── 📁 APE09
+
 ├── 📁 APE10
+
 ├── 📁 APE11
+
 │
+
 ├── 📁 Evaluacion_Final
+
 │   ├── Archivo_Procesado
+
 │   └── Source_Datos_Loja
+
 │
+
 ├── 📁 Bitacora
+
 │   └── bitacora.md
+
 │
+
 └── README.md
+
 
 
 🎯 Objetivos
