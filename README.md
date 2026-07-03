@@ -1,7 +1,5 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
-![Markdown](https://img.shields.io/badge/Markdown-README-blue?logo=markdown)
 <div align="center">
 
 📊 Portafolio Digital Sistematizado
