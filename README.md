@@ -7,11 +7,11 @@ Unidad 2 – Inferencia
 
 👨‍🎓 Estudiante: Mateo Yanangómez
 
-📚 Asignatura: _______________________
+📚 Asignatura: Teroía de la Distribución y Probabilidad
 
-👨‍🏫 Docente: _______________________
+👨‍🏫 Docente: Ing. Cristian Narvaes
 
-🎓 Carrera: _______________________
+🎓 Carrera: Ingería en Ciencias de la Computación 
 
 🏫 Universidad: Universidad Técnica Particular de Loja
 
