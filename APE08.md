@@ -1,5 +1,5 @@
 # APE09
 
-### Pruebas de Hipótesis Paramétricas
+### Intervalos de confianza entre Z y T de student
 
-[APE009-GrupoA-Pruebas de Hipótesis Paramétricas (Z y T) y Análisis del Valor-p.pdf](https://github.com/user-attachments/files/29646401/APE009-GrupoA-Pruebas.de.Hipotesis.Parametricas.Z.y.T.y.Analisis.del.Valor-p.pdf)
+[APE09-U2-GrupoA.pdf](https://github.com/user-attachments/files/29646421/APE09-U2-GrupoA.pdf)
