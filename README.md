@@ -39,25 +39,25 @@ El propósito de este portafolio es organizar y documentar el proceso de aprendi
 
 │
 
-├── [📁APE06](Unidad1/APE06.md)
+├── [📁APE06](APE06.md)
 
-├── [📁 APE07](Unidad1/APE07.md)
+├── [📁 APE07](APE07.md)
 
-├── [📁 APE08](Unidad1/APE08.md)
+├── [📁 APE08](APE08.md)
 
-├── [📁 APE09](Unidad1/APE09.md)
+├── [📁 APE09](APE09.md)
 
-├── [📁 APE10](Unidad1/APE10.md)
+├── [📁 APE10](APE10.md)
 
 │
 
 ├── 📁 Evaluacion_Final
 
-│   ├── [Examén](Unidad2/Examen.md)
+│   ├── [Examén](Examen.md)
 
-│   └── [Ypynb](Unidad2/YpynbFinal.md)
+│   └── [Ypynb](YpynbFinal.md)
 
-|__[📁Bitácora](Unidad2/Bitacora.md)
+|__[📁Bitácora](Bitacora.md)
 
 🎯 Objetivos
 
