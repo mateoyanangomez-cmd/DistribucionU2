@@ -1,7 +1,9 @@
 <div align="center">
 
 📊 Portafolio Digital Sistematizado
+
 Proyecto Integrador de Desarrollo (PID-2025)
+
 Unidad 2 – Inferencia
 
 
