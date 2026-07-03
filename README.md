@@ -37,9 +37,9 @@ El propósito de este portafolio es organizar y documentar el proceso de aprendi
 
 │
 
-├── 📁 APE06
+├── [📁APE06](Unidad1/APE06.md)
 
-├── 📁 APE07
+├── [📁 APE07](Unidad1/APE07.md)
 
 ├── 📁 APE08
 
@@ -83,14 +83,9 @@ Evidenciar el aprendizaje mediante una bitácora de autoevaluación.
 
 GitHub
 
-Markdown
+Google Colab
 
 Python
-
-Jupyter Notebook
-
-Visual Studio Code
-
 
 <div align="center">
 
