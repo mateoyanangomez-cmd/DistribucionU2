@@ -55,7 +55,7 @@ El propósito de este portafolio es organizar y documentar el proceso de aprendi
 
 │   ├── [Examén](Examen.md)
 
-│   └── [Ypynb](YpynbFinal.md)
+│   └── [Ypynb](Ypynb.md)
 
 |__[📁Bitácora](Bitacora.md)
 
