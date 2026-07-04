@@ -1,6 +1,6 @@
 # Aprendizaje y las dificultades algorítmicas superadas en esta unidad
 
-📝 Bitácora de Autoevaluación: Inferencia Estadística
+📝 Bitácora de Autoevaluación: Inferencia Estadística*
 
 🧠 Aprendizajes ClaveInferencia Paramétrica: 
 Transición de estimaciones puntuales a intervalos de confianza. 
