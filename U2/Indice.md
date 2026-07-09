@@ -1,14 +1,30 @@
 ## Unidad 2 – Inferencia
 
+Este repositorio recopila las evidencias académicas desarrolladas durante la Unidad 2 – Inferencia del Proyecto Integrador de Desarrollo (PID-2025).
+El propósito de este portafolio es organizar y documentar el proceso de aprendizaje mediante el almacenamiento estructurado de las prácticas de laboratorio, la evaluación sumativa final y una reflexión personal sobre los conocimientos adquiridos durante la unidad.
 
-👨‍🎓 Estudiante: Mateo Yanangómez
 
-📚 Asignatura: Teoría de la Distribución y Probabilidad
+📂 Contenido Unidad 2
 
-👨‍🏫 Docente: Ing. Cristian Narváez
 
-🎓 Carrera: Ingería en Ciencias de la Computación 
+│
 
-🏫 Universidad: Universidad Nacional de Loja
+├── [📁APE06](U2)
 
-📅 Periodo Académico: 2025–2026
+├── [📁 APE07](APE07.md)
+
+├── [📁 APE08](APE08.md)
+
+├── [📁 APE09](APE09.md)
+
+├── [📁 APE10](APE10.md)
+
+│
+
+├── 📁 Evaluacion_Final
+
+│   ├── [Examén](Examen.md)
+
+│   └── [Ypynb](Ypynb.md)
+
+|__[📁Bitácora](Bitacora.md)
