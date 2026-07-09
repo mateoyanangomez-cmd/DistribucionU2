@@ -28,58 +28,58 @@ azul (distribución de medias muestrales).
 
 ### Primer código
 
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-*Creación de la Población "Universo" (Altamente asimétrica)*
-np.random.seed(42)
-poblacion_exponencial = np.random.exponential(scale=2.0, size=100000)
-mu_pob = np.mean(poblacion_exponencial)
-sigma_pob = np.std(poblacion_exponencial)
-print(f"--- Parámetros Poblacionales Reales ---")
-print(f"Media (μ): {mu_pob:.4f}")
-print(f"Desviación Estándar (σ): {sigma_pob:.4f}")
-*Visualización de la Población Original*
-plt.figure(figsize=(8, 4))
-sns.histplot(poblacion_exponencial, bins=50, kde=True, color='orange')
-plt.title("Distribución Poblacional (Exponencial) - Claramente NO Normal")
-plt.xlabel("Tiempo de Permanencia")
-plt.ylabel("Frecuencia")
-plt.axvline(mu_pob, color='red', linestyle='dashed', label=f'Media: {mu_pob:.2f}')
-plt.legend()
-plt.show()
+    import numpy as np
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    *Creación de la Población "Universo" (Altamente asimétrica)*
+    np.random.seed(42)
+    poblacion_exponencial = np.random.exponential(scale=2.0, size=100000)
+    mu_pob = np.mean(poblacion_exponencial)
+    sigma_pob = np.std(poblacion_exponencial)
+    print(f"--- Parámetros Poblacionales Reales ---")
+    print(f"Media (μ): {mu_pob:.4f}")
+    print(f"Desviación Estándar (σ): {sigma_pob:.4f}")
+    *Visualización de la Población Original*
+    plt.figure(figsize=(8, 4))
+    sns.histplot(poblacion_exponencial, bins=50, kde=True, color='orange')
+    plt.title("Distribución Poblacional (Exponencial) - Claramente NO Normal")
+    plt.xlabel("Tiempo de Permanencia")
+    plt.ylabel("Frecuencia")
+    plt.axvline(mu_pob, color='red', linestyle='dashed', label=f'Media: {mu_pob:.2f}')
+    plt.legend()
+    plt.show()
 
 ### Segundo código
 
-*Parámetros de la simulación*
-tamaño_muestra = 30 # n
-numero_muestras = 1000 # k
-*Array para almacenar las medias de cada muestra*
-medias_muestrales = []
-*Bucle de Monte Carlo simple*
-for _ in range(numero_muestras):
-*Extraer muestra aleatoria sin reemplazo*
-  muestra = np.random.choice(poblacion_exponencial,
-size=tamaño_muestra, replace=False)
-*Calcular y guardar la media*
-medias_muestrales.append(np.mean(muestra))
-*Estadísticos de la Distribución Muestral*
-media_de_medias = np.mean(medias_muestrales)
-error_estandar_empirico = np.std(medias_muestrales)
-error_estandar_teorico = sigma_pob / np.sqrt(tamaño_muestra)
-print(f"--- Estadísticos de las Medias Muestrales (n={tamaño_muestra}) ---")
-print(f"Media de las Medias Muestrales (E[X̄ ]): {media_de_medias:.4f}")
-print(f"Error Estándar Empírico (σ_̄x): {error_estandar_empirico:.4f}")
-print(f"Error Estándar Teórico (σ/√n): {error_estandar_teorico:.4f}")
-*Visualización de la convergencia a la Normal*
-plt.figure(figsize=(8, 4))
-sns.histplot(medias_muestrales, bins=30, kde=True, color='blue')
-plt.title(f"Distribución de las Medias Muestrales (n={tamaño_muestra}) - ¡Convergencia a la Normal!")
-plt.xlabel("Valor de las Medias Muestrales")
-plt.ylabel("Frecuencia")
-plt.axvline(media_de_medias, color='red', linestyle='dashed', label=f'E[X̄ ]:{media_de_medias:.2f}')
-plt.legend()
-plt.show()
+    *Parámetros de la simulación*
+    tamaño_muestra = 30 # n
+    numero_muestras = 1000 # k
+    *Array para almacenar las medias de cada muestra*
+    medias_muestrales = []
+    *Bucle de Monte Carlo simple*
+    for _ in range(numero_muestras):
+    *Extraer muestra aleatoria sin reemplazo*
+      muestra = np.random.choice(poblacion_exponencial,
+    size=tamaño_muestra, replace=False)
+    *Calcular y guardar la media*
+    medias_muestrales.append(np.mean(muestra))
+    *Estadísticos de la Distribución Muestral*
+    media_de_medias = np.mean(medias_muestrales)
+    error_estandar_empirico = np.std(medias_muestrales)
+    error_estandar_teorico = sigma_pob / np.sqrt(tamaño_muestra)
+    print(f"--- Estadísticos de las Medias Muestrales (n={tamaño_muestra}) ---")
+    print(f"Media de las Medias Muestrales (E[X̄ ]): {media_de_medias:.4f}")
+    print(f"Error Estándar Empírico (σ_̄x): {error_estandar_empirico:.4f}")
+    print(f"Error Estándar Teórico (σ/√n): {error_estandar_teorico:.4f}")
+    *Visualización de la convergencia a la Normal*
+    plt.figure(figsize=(8, 4))
+    sns.histplot(medias_muestrales, bins=30, kde=True, color='blue')
+    plt.title(f"Distribución de las Medias Muestrales (n={tamaño_muestra}) - ¡Convergencia a la Normal!")
+    plt.xlabel("Valor de las Medias Muestrales")
+    plt.ylabel("Frecuencia")
+    plt.axvline(media_de_medias, color='red', linestyle='dashed', label=f'E[X̄ ]:{media_de_medias:.2f}')
+    plt.legend()
+    plt.show()
 
 
 ## Sección 3: El TLC en Ciencias de la Computación (Enfoque: Machine Learning)
