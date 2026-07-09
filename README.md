@@ -39,7 +39,7 @@ El propósito de este portafolio es organizar y documentar el proceso de aprendi
 
 │
 
-├── [📁APE06](U2/APE06.md)
+├── [📁APE06](U2)
 
 ├── [📁 APE07](APE07.md)
 
